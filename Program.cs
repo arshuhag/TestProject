@@ -14,8 +14,22 @@ class Test {
         Console.WriteLine(isRagistered);
         Console.WriteLine(bloodGroup);
 
+//nested iteration and selection statements challenge activity
+
+    string[] orderIDs = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
+
+    foreach (string orderID in orderIDs)
+    {
+        if (orderID.StartsWith("B"))
+        {
+            Console.WriteLine(orderID);
+        }
+    }
+
+
     }
 }
+
 //array index current location and sum
 /*
 int[] inventory = { 200, 450, 700, 175, 250 };
