@@ -2,6 +2,32 @@
 
 class Test {
     public static void Main(String[] args) {
+        //taking user input and showing in result
+        string? studentName;
+        int studentAge;
+        double studentCGPA;
+        bool isRagistered;
+
+        Console.Write("Enter your name: ");
+        studentName = Console.ReadLine();
+
+        Console.Write("Enter your age: ");
+        studentAge = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter your CGPA: ");
+        studentCGPA = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Have you already registered: ");
+        isRagistered = Convert.ToBoolean(Console.ReadLine());
+
+        Console.WriteLine("Name: "+ studentName);  
+        Console.WriteLine("Age: "+ studentAge + " years old");  
+        Console.WriteLine("CGPA: "+ studentCGPA);  
+        Console.WriteLine("Registered: "+ isRagistered);  
+
+
+
+        /*
         string fullName = "Md. Anisur Rahaman";
         int age = 29;
         double gpa = 3.67;
@@ -53,7 +79,7 @@ foreach (var orderID in orderIDs)
     Console.WriteLine(orderID);
 }
 */
-
+/*
 //greading system for 4 students
 // initialize variables - graded assignments
 int examAssignments = 5;
@@ -162,7 +188,7 @@ foreach (string name in studentNames)
 Console.WriteLine("\n\rPress the Enter key to continue");
 Console.ReadLine();
 
-
+*/
 
 
     }
